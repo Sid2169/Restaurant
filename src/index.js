@@ -4,6 +4,8 @@ import { loadHomeContent} from './modules/home.js';
 import { loadMenuContent } from './modules/menu.js';
 import { loadContactContent } from './modules/contact.js';
 
+loadHomeContent();
+
 function clearContent() {
     document.getElementById('content').innerHTML = ``
 }
