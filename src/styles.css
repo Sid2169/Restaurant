@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #4E3B31;
+}
+
+.btn {
+    margin: 4px;
+    background-color: #C72C41;
+}
+
+body {
+    background-color: #F5E1A4;
+    background-color: black;
+    color: #4A7C2A;
+    padding: 1rem;
+}
+
+#home-content {
+    background: url(./assets/images/hero.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: wheat;
+     p, h2 {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+}
+
+#menu-content {
+    background-size: cover; /* Cover the entire area */
+    padding: 2rem; /* Add padding for spacing */
+    color: #4A7C2A; /* Text color */
+}
+
+#menu-content h2 {
+    color: #C72C41; /* Heading color */
+    text-align: center; /* Center the heading */
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+#menu-content p {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
+    padding: 1rem; /* Padding around the paragraph */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 1rem; /* Space below the paragraph */
+}
+
+#menu-content ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+#menu-content li {
+    background-color: rgba(255, 255, 255, 0.7); /* Light background for list items */
+    margin: 0.5rem 0; /* Space between list items */
+    padding: 0.5rem; /* Padding for list items */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#menu-content li:hover {
+    background-color: rgba(199, 44, 65, 0.8); /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
